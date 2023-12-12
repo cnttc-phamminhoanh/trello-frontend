@@ -25,9 +25,7 @@ function Profiles() {
   const handleClose = (event) => {
     const { menuItemValue } = event.currentTarget.dataset
 
-    if (menuItemValue === 'logout') {
-      console.log('logout')
-    }
+    if (menuItemValue === 'logout') { /* empty */ }
 
     setAnchorEl(null)
   }
