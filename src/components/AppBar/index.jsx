@@ -46,7 +46,7 @@ function AppBar() {
       </Box>
 
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-        <TextField id="outlined-search" label="Search ... hi" type="search" size='small' sx={{ minWidth: 120 }} />
+        <TextField id="outlined-search" label="Search ..." type="search" size='small' sx={{ minWidth: 120 }} />
         <ModeSelect />
         { /* component Tooltip có tác dụng khi hover vào sẽ hiện text trong prop title (Notifications) */}
         <Tooltip title="Notifications">
