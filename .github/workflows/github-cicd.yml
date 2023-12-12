@@ -40,7 +40,7 @@ jobs:
     - run: npm run build --if-present
 
   deploy:
-    if: startsWith(github.head_ref, 'master')
+    if: github.ref == 'refs/heads/master'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
